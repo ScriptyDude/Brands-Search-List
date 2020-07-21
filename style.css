@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica;
+  color: #333;
+  padding: 10px;
+}
+
+input {
+  display: block;
+  width: 60%;
+  margin: 5px auto;
+  color: #bbb;
+  font-size:  20px;
+  border-radius: 5px;
+}
+
+#logo {
+  text-align: center;
+  color: teal;
+  font-family: Arial;
+  letter-spacing: 3px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#logo h1 {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  border: 1px solid #bbb;
+  padding: 0;
+  margin: 3em;
+}
+
+li {
+  /* display: none; */
+}
+li a {
+  display: block;
+  text-decoration: none;
+  background: #eee;
+  padding: 10px;
+  letter-spacing: 2px;
+  border: 1px solid #bbb;
+  color: inherit;
+  transition: 0.5s ease-in-out;
+}
+
+li a:hover {
+  background: #fff;
+}
